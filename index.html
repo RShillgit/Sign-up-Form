@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Sign-up-Form</title>
+</head>
+<body>
+    <div class="image">
+        <div class="logo">
+            <img src="static/odin-logo.png" alt="Odin" height="100px">
+            <p id="logo">Sign up Form</p>
+        </div>
+        <p id="credits">Image by <a href="https//pixabay.com/users/qimono-1962238/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1756274">
+            Arek Socha</a> from <a href="https//pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1756274">
+                Pixabay</a></p>
+    </div>
+
+    <div class="ui">
+        <div class="info">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.  Sign up now to get started.</p>
+            <p>You know you want to.</p><br>
+        </div>
+        <div class="form">
+            <fieldset id="signUp">
+                <p id="formTitle"> Let's do this!</p>
+                <form> 
+                    <div class="main">
+                        <div class="row">
+                            <div class="col">
+                                <label for="fname">First name </label><br>
+                                <input type="text" id="fname" required><br>
+                            </div>
+                            
+                            <div class="col">
+                                <label for="lname">Last name </label><br>
+                                <input type="text" id="flname" required><br>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col">
+                                <label for="email">Email </label><br>
+                                <input type="email" id="email" required><br>
+                            </div>
+                            
+                            <div class="col">
+                                <label for="phone">Phone number </label><br>
+                                <input type="number" id="fname" required><br>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col">
+                                <label for="password">Password </label><br>
+                                <input type="password" id="password" required><br>
+                                <p id="pErrorMsg"></p>
+                            </div>
+                            
+                            <div class="col">
+                                <label for="confPassword">Confirm password </label><br>
+                                <input type="password" id="confPassword" required><br>
+                                <p id="confErrorMsg"></p>
+                            </div>
+                        </div>
+
+                    </div>
+            </fieldset>
+                    <div class="submit">
+                        <button class="submitBtn" type="button">Create Account</button>
+                    </div>
+
+                </form>
+            
+            
+            <div class="login">
+                <p>Already have an account? <a>Log in</a></p>
+            </div>     
+        </div>
+
+    </div>  
+</body>   
+</html>

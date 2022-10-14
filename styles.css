@@ -1,0 +1,116 @@
+@font-face {
+    font-family: norseBold;
+    src: url('/static/Norse-Bold.otf');
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image {
+    background-image: url(static/earth.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+    align-items: center;
+}
+#credits > a {
+    text-decoration: none;
+    color: white;
+}
+#credits {
+    position: relative;
+    bottom: -300px;
+}
+
+.ui {
+    width: max-content;
+}
+.info {
+    width: 40vw;
+    background-color: whitesmoke;
+}
+.info > p {
+    margin: 0;
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.info, #formTitle, .submit, .login {
+    padding-left: 40px;
+}
+
+#signUp {
+    background-color: white;
+    padding: 0;
+    border: none;
+    box-shadow: 0px -10px 10px whitesmoke, 0px 10px 10px whitesmoke;
+}
+#signUp > form {
+    padding: 30px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+#formTitle {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.main > .row {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 60px;
+}
+.col > input {
+    height: 25px;
+    width: 250px;
+    border:  1px solid #E5E7EB;
+}
+.col > p {
+    color: red;
+}
+
+.submit, .login {
+    margin-top: 30px; 
+}
+.submit > button {
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+    border-style: solid;
+}
+.login > p > a {
+    color: #596D48;
+}
+
+.col > input:focus {
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px blue, 0px 0px 2px blue;
+}
