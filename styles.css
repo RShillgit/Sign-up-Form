@@ -1,6 +1,14 @@
 @font-face {
     font-family: norseBold;
-    src: url('/static/Norse-Bold.otf');
+    src: url(static/Norse-Bold.otf);
+}
+@font-face {
+    font-family: nunito;
+    src: url(static/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+html {
+    font-family: nunito;
 }
 
 body {
@@ -30,13 +38,17 @@ body {
     font-size: 50px;
     align-items: center;
 }
+#logo {
+    font-family: norseBold;
+}
+
 #credits > a {
     text-decoration: none;
     color: white;
 }
 #credits {
-    position: relative;
-    bottom: -300px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .ui {
